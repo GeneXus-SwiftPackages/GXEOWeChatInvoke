@@ -25,8 +25,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXEOWeChatInvoke",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXEOWeChatInvoke-1.0.0-beta+20230428202437.xcframework.zip",
-			checksum: "c2265f4ada8dca21d360147efceaae5d191232747bff91f0c266ed599d6643e6"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXEOWeChatInvoke-1.0.0-beta+20230502131235.xcframework.zip",
+			checksum: "a134d0cd513779f4693e3030e96a13602e1e38aefcbfbf0039d0641fb51bf7df"
 		)
 	]
 )

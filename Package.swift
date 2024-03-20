@@ -10,9 +10,9 @@ let package = Package(
 			targets: ["GXEOWeChatInvokeWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.5.0-beta.24"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "1.5.0-beta.24"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXObjectsModel.git", exact: "1.5.0-beta.24")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.5.0-beta.25"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "1.5.0-beta.25"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXObjectsModel.git", exact: "1.5.0-beta.25")
 	],
 	targets: [
 		.target(name: "GXEOWeChatInvokeWrapper",
@@ -25,8 +25,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXEOWeChatInvoke",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXEOWeChatInvoke-1.5.0-beta.24.xcframework.zip",
-			checksum: "65adde0b1b30cac13fa2cbdd6e1eb31a989a8c7ad355c7df16fce7fdd1b921b3"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXEOWeChatInvoke-1.5.0-beta.25.xcframework.zip",
+			checksum: "b1f2e4deab59cb1153a4adfdcad3dade4de8d07f6996ebde2ac6e9eca060df7f"
 		)
 	]
 )
